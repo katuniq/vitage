@@ -8,6 +8,22 @@ body {
     overflow-x: hidden;
 }
 
+#mainNavbar {
+    background: url("imgs/header2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14rem;
+    font-size: 1.3rem;
+    font-weight: 400;    
+}
+
+#logo {
+    height: 7rem;
+    /* padding-left: 3rem; */
+}
+
+
 hr {
     display: block;
     height: 1px;
@@ -17,10 +33,9 @@ hr {
     padding: 0;
 }
 
-#mainNavbar span {
+#mainNavbar div {
     font-style: italic;
     font-weight: 400;
-    font-size: 1.3rem;
 }
 
 .blurb h2 {
@@ -37,30 +52,6 @@ hr {
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-#mainNavbar {
-    background-color: #d9dddf;
-    font-size: 1.5rem;
-    font-weight: 100;    
-}
-
-#logo {
-    height: 3em;
-    /* padding-left: 3rem; */
-}
-
-#mainNavbar .nav-link {
-    color: rgb(18, 159, 20);
-}
-
-#mainNavbar .nav-link:hover {
-    color: #EA1C2C;
-}
-
-#mainNavbar .navbar-brand {
-    color: #EA1C2C;
-    font-size: 1.5rem;
 }
 
 #headingGroup p {
@@ -82,6 +73,13 @@ hr {
     .blurb h2 {
         font-size: 2rem;
     }
+    #mainNavbar {
+        height: 9rem;
+        font-size: 1.1rem;
+    }
+    #logo {
+        height: 5rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -91,6 +89,13 @@ hr {
     }
     .blurb h2 {
         font-size: 2rem;
+    }
+    #mainNavbar {
+        height: 7rem;
+        font-size: 0.8rem;
+    }
+    #logo {
+        height: 4rem;
     }
 }
 
