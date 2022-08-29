@@ -10,7 +10,7 @@ body {
 
 #mainNavbar {
     background: url("imgs/header2.png");
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 14rem;
@@ -18,11 +18,23 @@ body {
     font-weight: 400;    
 }
 
+.img {
+    max-width:100%;
+    max-height:100%;
+}
+
 #logo {
     height: 7rem;
     /* padding-left: 3rem; */
 }
 
+footer {
+    background: url('imgs/footer.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
+}
 
 hr {
     display: block;
@@ -80,6 +92,9 @@ hr {
     #logo {
         height: 5rem;
     }
+    footer {
+        height: 22.5em;
+    }
 }
 
 @media (max-width: 768px) {
@@ -96,6 +111,10 @@ hr {
     }
     #logo {
         height: 4rem;
+    }
+
+    footer {
+        height: 35em;
     }
 }
 
